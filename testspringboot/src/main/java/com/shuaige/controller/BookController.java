@@ -13,6 +13,7 @@ public class BookController {
     @GetMapping("/{id}")
     public String getById(@PathVariable Integer id){
         System.out.println("a");
+        System.out.println("shuaiqi ");
         return "";
     }
 }
